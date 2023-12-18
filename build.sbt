@@ -1,7 +1,7 @@
 import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin.publishingSettings
 import sbt.Keys._
 
-val appName = "service-guide-skeleton"
+val appName = "trader-goods-profile"
 
 scalaVersion := "2.13.8"
 

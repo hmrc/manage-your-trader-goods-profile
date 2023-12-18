@@ -1,0 +1,38 @@
+---
+title: Errors
+weight: 30
+---
+
+#Errors
+
+<p style="color:red">Note: All content in this page are work in progress and are evolving</p>
+
+TGP APIs use standard HTTP status codes to show whether an API request succeeded or not.
+
+They are usually in the range:
+
+<table>
+  <tr>
+    <th>SL #</th>
+    <th>Range</th>
+    <th>Scenario</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>200 to 299</td>
+    <td>Request succeeded, including code 202 if it was accepted by an API that needs to wait for further action</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>400 to 499</td>
+    <td> Request failed because of a client error by your application</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>500 to 599</td>
+    <td>Request failed because of an error on our server</td>
+   </tr>
+</table>
+
+Errors specific to each API are shown in the Endpoints section, under Response. See our reference guide for more on errors.
+
