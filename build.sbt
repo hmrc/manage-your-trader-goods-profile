@@ -1,7 +1,7 @@
 import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin.publishingSettings
 import sbt.Keys._
 
-val appName = "trader-goods-profile"
+val appName = "manage-your-trader-goods-profile"
 
 scalaVersion := "2.13.8"
 
